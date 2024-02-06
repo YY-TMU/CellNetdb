@@ -1,5 +1,5 @@
 # CellNetdb
-CellNetdb is a database of a large-scale atlas of cell-type-specific interactome networks within tumor microenvironments. A total of 55 tumor scRNA-seq datasets, corresponding to 563 different patients and covering over two million cells in 44 tumor types, were incorporated for constructing these networks. We have provided all the main codes and parameters for constructing the cell-type-specific interactome networks. Moreover, detailed elucidations have also been provided regarding the execution of statistical calculations within each CellNet function module. CellNetdb is publicly and freely available at http://www.bioailab.com:3838/CellNetdb to all 619 users without any login or registration restrictions. The main processes of network function analysis were described below.
+CellNetdb is a database of a large-scale atlas of cell-type-specific interactome networks within tumor microenvironments. A total of 55 tumor scRNA-seq datasets, corresponding to 563 different patients and covering over two million cells in 44 tumor types, were incorporated for constructing these networks. We have provided all the main codes and parameters for constructing the cell-type-specific interactome networks. Moreover, detailed elucidations have also been provided regarding the execution of statistical calculations within each CellNet function module. CellNetdb is publicly and freely available at http://www.bioailab.com:3838/CellNetdb to all users without any login or registration restrictions. The main processes of network function analysis were described below.
 
 ## Reconstruction of cell-type-specific interactome networks
 
@@ -62,6 +62,10 @@ We employed two distinct metrics, namely shared-edge similarity and topology sim
 $$
 \normalsize   topS_{transf}(i) =\frac{1}{1+e^{-topS(i)}}
 $$
+
+
+## Code notebook for replicating this work
+To ensure the reproducibility and usability of our work, we have included a comprehensive code notebook (refer to CellNetdb_notebook.ipynb), which provides guidance for users to replicate all steps on a small dataset.
 
 
 
