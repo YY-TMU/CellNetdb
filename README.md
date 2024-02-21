@@ -1,4 +1,4 @@
-# Cell-type-specific interactome networks across human cancers
+# CellNet
 A total of 55 tumor scRNA-seq datasets, corresponding to 563 different patients and covering over two million cells in 44 tumor types, were incorporated for constructing these networks. We have provided all the main codes and parameters for constructing the cell-type-specific interactome networks. Moreover, detailed elucidations have also been provided regarding the execution of statistical calculations within each CellNet function module. CellNetdb is publicly and freely available at http://www.bioailab.com:3838/CellNetdb to all users without any login or registration restrictions. The main processes of network function analysis were described below.
 
 ## Reconstruction of cell-type-specific interactome networks
@@ -68,7 +68,7 @@ $$
 To ensure the reproducibility and usability of our work, we have included a comprehensive code notebook (refer to CellNetdb_notebook.ipynb), which provides guidance for users to replicate all steps on a small dataset.
 
 ## Reference
-Zekun Li^, Gerui Liu^, Xiaoxiao Yang^, Meng Shu, Wen Jin, Yang Tong, Xiaochuan Liu, Yuting Wang, Jiapei Yuan*,Yang Yang* (2023) An atlas of cell-type-specific interactome networks across 44 human tumor types. Genome Medicine 16(1):30
+Zekun Li^, Gerui Liu^, Xiaoxiao Yang^, Meng Shu, Wen Jin, Yang Tong, Xiaochuan Liu, Yuting Wang, Jiapei Yuan*,Yang Yang* (2023) **An atlas of cell-type-specific interactome networks across 44 human tumor types**. *Genome Medicine* 16(1):30
 
 
 
